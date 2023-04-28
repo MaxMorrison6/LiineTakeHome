@@ -1,4 +1,5 @@
 # Get Food
+Hungry? Let's find somewhere to eat!
 This API get_food takes a datetime that you want a meal and returns you all open restaurants
 
 # Running through Docker
@@ -11,6 +12,7 @@ To create the image for the docker container:
 `docker build -t get-food .`
 
 And to run the program:
+
 `docker run -p 80:80 get-food`
 
 Then send a GET request using your preferred API test client like Postman or Insomnia like this:
